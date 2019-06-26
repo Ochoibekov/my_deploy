@@ -2,7 +2,7 @@
 require "./lib/config_project"
 @config_project = ConfigProject.new(ENV['PROJECT'])
 
-require 'sshkit/sudo'
+# require 'sshkit/sudo'
 require "capistrano/setup"
 require "capistrano/deploy"
 require "capistrano/scm/git"
