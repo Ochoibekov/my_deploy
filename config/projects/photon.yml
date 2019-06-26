@@ -1,0 +1,6 @@
+application: photon
+server_ip: 10.0.0.18
+repo_url: git@bitbucket.org:spalmalo/photonadl.git
+branch: develop
+server_user: omka
+assets: false
