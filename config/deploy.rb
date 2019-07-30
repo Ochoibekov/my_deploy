@@ -27,7 +27,11 @@ namespace :deploy do
       invoke 'foreman:start'
     end
   end
-
+ task :mkdir do
+    on roles(:app) do 
+      execute "mkdir #{fetch :deploy_to}/shared/tmp/sockets/"      
+    end
+  end
   task :check_env do
     on roles(:all) do |host|
       f = "#{shared_path}/.env"
