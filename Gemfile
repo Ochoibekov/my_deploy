@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.12'
 gem 'dotenv-rails'
 gem 'foreman'
 
